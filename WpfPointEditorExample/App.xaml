@@ -1,0 +1,9 @@
+﻿<Application x:Class="WpfPointEditorExample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:wpfPointEditorExample="clr-namespace:WpfPointEditorExample"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <wpfPointEditorExample:DesignData x:Key="DesignData"></wpfPointEditorExample:DesignData>
+    </Application.Resources>
+</Application>
